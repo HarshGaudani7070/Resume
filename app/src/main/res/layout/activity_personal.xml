@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    tools:context=".personal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="name"
+            android:letterSpacing="0.3"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/black"
+            android:paddingLeft="15dp"
+            android:background="@drawable/desigen"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="address"
+                android:letterSpacing="0.3"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="top"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/desigen"/>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="email"
+                    android:letterSpacing="0.3"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:paddingLeft="15dp"
+                    android:textColorHint="@color/black"
+                    android:background="@drawable/desigen"/>
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:hint="phone"
+                        android:letterSpacing="0.3"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:paddingLeft="15dp"
+                        android:textColorHint="@color/black"
+                        android:inputType="number"
+                        android:background="@drawable/desigen"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="Hobby"
+        android:letterSpacing="0.3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/desigen"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <CheckBox
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Music"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:paddingRight="10dp"
+            android:background="@drawable/desigen"/>
+
+        <CheckBox
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Dance"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/desigen"/>
+
+        <CheckBox
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Cricket"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/desigen"/>
+
+        <CheckBox
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Gaming"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/desigen"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/desigen"
+            android:text="Next"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:letterSpacing="0.3"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Reset"
+            android:background="@drawable/desigen"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
+            android:letterSpacing="0.3"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:padding="5dp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
